@@ -7,10 +7,10 @@
 		<version>5</version>
 	</parent>
 
-	<groupId>com.badlogicgames.box2dlights</groupId>
+	<groupId>com.github.desertkun.box2dlights</groupId>
 	<artifactId>box2dlights</artifactId>
 	<packaging>jar</packaging>
-	<version>1.5-SNAPSHOT</version>
+	<version>1.5-dev</version>
 
 	<name>Box2dlights</name>
 	<description>2D real-time lighting using box2d</description>
@@ -49,7 +49,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<gdx.version>1.6.2</gdx.version>
+		<gdx.version>1.9.4-dev</gdx.version>
 	</properties>
 
 	<build>
@@ -85,33 +85,33 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.badlogicgames.gdx</groupId>
+			<groupId>com.github.desertkun.libgdx</groupId>
 			<artifactId>gdx</artifactId>
 			<version>${gdx.version}</version>
 			<scope>compile</scope>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>com.badlogicgames.gdx</groupId>
+			<groupId>com.github.desertkun.libgdx</groupId>
 			<artifactId>gdx-platform</artifactId>
 			<classifier>natives-desktop</classifier>
 			<version>${gdx.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.badlogicgames.gdx</groupId>
+			<groupId>com.github.desertkun.libgdx</groupId>
 			<artifactId>gdx-backend-lwjgl</artifactId>
 			<version>${gdx.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.badlogicgames.gdx</groupId>
+			<groupId>com.github.desertkun.libgdx</groupId>
 			<artifactId>gdx-box2d</artifactId>
 			<version>${gdx.version}</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.badlogicgames.gdx</groupId>
+			<groupId>com.github.desertkun.libgdx</groupId>
 			<artifactId>gdx-box2d-platform</artifactId>
 			<version>${gdx.version}</version>
 			<classifier>natives-desktop</classifier>
